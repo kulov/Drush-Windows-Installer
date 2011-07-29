@@ -1,0 +1,439 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Include>
+  <Fragment>
+    <DirectoryRef Id="DrushFolder">
+      <Directory Id="dir61CB05E69C1CE16636D919FD3AF6C1DD" Name="commands" />
+      <Directory Id="dir6CCCA9256FF776A5A34E9DFDBA7C183A" Name="docs" />
+      <Directory Id="dirD8BA9E4FAC87715B19653A769A60FC91" Name="examples" />
+      <Directory Id="dir18F69BCE22B2AA4F5FE69FE0D5A80D93" Name="includes" />
+      <Directory Id="dir9DF72F04C491481EBEAA7A57D08E58E0" Name="tests" />
+    </DirectoryRef>
+  </Fragment>
+  <Fragment>
+    <ComponentGroup Id="CG_DRUSH">
+      <Component Id="cmpE19A49534C798B70076F9D25AE57507E" Directory="DrushFolder" Guid="{D84DD5DF-E877-4B1E-9291-A9179000D8BF}">
+        <File Id="fil216E0F3F1E9B3C1C8083A0923E6D70ED" KeyPath="yes" Source="$(var.DrushSourceDir)\drush" />
+      </Component>
+      <Component Id="cmp71F8D0D006CFBA51F5D9637DF735600A" Directory="DrushFolder" Guid="{8F967B7E-C875-478E-BBF4-7D451D94067F}">
+        <File Id="fil32C864290C51D024A8F7F9D213C085DF" KeyPath="yes" Source="$(var.DrushSourceDir)\drush.bat" />
+      </Component>
+      <Component Id="cmp688B5212C5E7EB9800810F3DCA7F2CBA" Directory="DrushFolder" Guid="{795B4D06-FFAF-4B29-9BEA-4C501010C4C5}">
+        <File Id="fil7AD289B480CC8FD86BF877E91AB301EE" KeyPath="yes" Source="$(var.DrushSourceDir)\drush.complete.sh" />
+      </Component>
+      <Component Id="cmpBD0020BCF8565D74D04D48E5367815BD" Directory="DrushFolder" Guid="{389850F7-AC1F-4719-962D-A4060D2B0FA5}">
+        <File Id="fil53CF53E6054640C345973F91AC6DFAA5" KeyPath="yes" Source="$(var.DrushSourceDir)\drush.info" />
+      </Component>
+      <Component Id="cmpE3364F38FF6D0F88C4DC59CC66D7D9AB" Directory="DrushFolder" Guid="{1FD9CA10-D0A0-4F58-B5EA-3AAE1A2535CD}">
+        <File Id="filCEE295C2912428D8ED46ED0DE0DBB24E" KeyPath="yes" Source="$(var.DrushSourceDir)\drush.php" />
+      </Component>
+      <Component Id="cmp973CBC86E5EFDE97BF2C642F1D64FD91" Directory="DrushFolder" Guid="{DEA773E1-4388-4675-BFEC-A3736102763E}">
+        <File Id="fil71553FAB6DD7B99BA656FB441C93CB6D" KeyPath="yes" Source="$(var.DrushSourceDir)\drush_logo-black.png" />
+      </Component>
+      <Component Id="cmpE0C893F5D37722D2E1288A0E9DF371EE" Directory="DrushFolder" Guid="{28DC5431-E020-4185-B7E0-671ABCFF7F07}">
+        <File Id="filDFA23347F53144323C78E5E87C90DE32" KeyPath="yes" Source="$(var.DrushSourceDir)\README.txt" />
+      </Component>
+      <Component Id="cmpC1F03E4CD9DA848EAD03C8E8AD9E3906" Directory="dir0147E4D5CD4AE5FED27D5291FC385B2E" Guid="{202885DC-4320-40AA-808C-96BE3356FEDB}">
+        <File Id="fil4E5557C7A0BFF3035137835C8EE782E9" KeyPath="yes" Source="$(var.DrushSourceDir)\commands\core\archive.drush.inc" />
+      </Component>
+      <Component Id="cmpB20D17DAA77EDE3CC81A9560E1FA2E9F" Directory="dir0147E4D5CD4AE5FED27D5291FC385B2E" Guid="{6FE7B895-3D87-4F34-8D55-8D6F9B0CD19E}">
+        <File Id="fil657555269634C92505928A3871681B85" KeyPath="yes" Source="$(var.DrushSourceDir)\commands\core\cache.drush.inc" />
+      </Component>
+      <Component Id="cmp3E807CCD351C5F0E8B836AEF4C234876" Directory="dir0147E4D5CD4AE5FED27D5291FC385B2E" Guid="{E573079B-2EA9-4F50-87FF-F3F31B17ECC2}">
+        <File Id="filA9392C34A205B2B1DA97CF316CB64101" KeyPath="yes" Source="$(var.DrushSourceDir)\commands\core\core.drush.inc" />
+      </Component>
+      <Component Id="cmp32C683D3E01D5413A631C93584A3CE8A" Directory="dir0147E4D5CD4AE5FED27D5291FC385B2E" Guid="{93F21770-6B54-40F1-9B67-2436B4797FE4}">
+        <File Id="filBE0E4316AFE87FFB5628D4BC6F275299" KeyPath="yes" Source="$(var.DrushSourceDir)\commands\core\docs.drush.inc" />
+      </Component>
+      <Component Id="cmp07EDED078C270A3773AFD2E854506688" Directory="dir0147E4D5CD4AE5FED27D5291FC385B2E" Guid="{45C41342-4297-4895-AB6C-3229F18432FC}">
+        <File Id="filBBD724D9E359DDF17122EC8055629752" KeyPath="yes" Source="$(var.DrushSourceDir)\commands\core\field.drush.inc" />
+      </Component>
+      <Component Id="cmp118C2B4A84C16C4BC0996CBD7CBB19B0" Directory="dir0147E4D5CD4AE5FED27D5291FC385B2E" Guid="{D3340712-32AC-4EBF-BA0E-508257633C09}">
+        <File Id="filE62D3E8DA928A1C12F691AC12D542900" KeyPath="yes" Source="$(var.DrushSourceDir)\commands\core\help.drush.inc" />
+      </Component>
+      <Component Id="cmp3C17C13313FA78548CF6690A76D2735F" Directory="dir0147E4D5CD4AE5FED27D5291FC385B2E" Guid="{C81E23B0-F506-4528-8E5B-66B44853A195}">
+        <File Id="fil694882DBE5AC88A05F6BFCA76A4628A0" KeyPath="yes" Source="$(var.DrushSourceDir)\commands\core\image.drush.inc" />
+      </Component>
+      <Component Id="cmp498C749E90C03782A586E89B79848425" Directory="dir0147E4D5CD4AE5FED27D5291FC385B2E" Guid="{54FF9A64-399E-4B7C-A697-FE7579E661C2}">
+        <File Id="filB048448D0319CE4FA9F9F2050F60AE6F" KeyPath="yes" Source="$(var.DrushSourceDir)\commands\core\rsync.core.inc" />
+      </Component>
+      <Component Id="cmp85DF354895B63212FE03C529BBAA94C3" Directory="dir0147E4D5CD4AE5FED27D5291FC385B2E" Guid="{7507DF75-C4FD-4176-AA1E-536D09DA87F3}">
+        <File Id="fil58991380E192675868FE4B155467DC78" KeyPath="yes" Source="$(var.DrushSourceDir)\commands\core\scratch.php" />
+      </Component>
+      <Component Id="cmp945A87B9F8463B3910D2FF8FB348C4BF" Directory="dir0147E4D5CD4AE5FED27D5291FC385B2E" Guid="{7B2A73BF-AA8C-4FF7-B986-32F37E285EAB}">
+        <File Id="filD2FEEBC4071E7238945473B156F9FA5D" KeyPath="yes" Source="$(var.DrushSourceDir)\commands\core\search.drush.inc" />
+      </Component>
+      <Component Id="cmp786A81CE30BDBD466BEEC01FF48E5EFF" Directory="dir0147E4D5CD4AE5FED27D5291FC385B2E" Guid="{978EDF17-1B2A-40B8-8A93-9FDB756FD2AD}">
+        <File Id="fil52E2D9FF727457140F9D1CF71DE69CC5" KeyPath="yes" Source="$(var.DrushSourceDir)\commands\core\shellalias.drush.inc" />
+      </Component>
+      <Component Id="cmp7D4CF37D8E6132103821D579F8360375" Directory="dir0147E4D5CD4AE5FED27D5291FC385B2E" Guid="{1312402F-D604-42BD-87B7-722167A6A472}">
+        <File Id="filA6E55B0125346F8E4C0FA04F07CB609E" KeyPath="yes" Source="$(var.DrushSourceDir)\commands\core\sitealias.drush.inc" />
+      </Component>
+      <Component Id="cmpD46D48498346CCE532F02F4D16C3849D" Directory="dir0147E4D5CD4AE5FED27D5291FC385B2E" Guid="{D14823EC-11B8-4824-86A6-A014B237B842}">
+        <File Id="fil7FC190379BCFEE07910F3F26E9B390D9" KeyPath="yes" Source="$(var.DrushSourceDir)\commands\core\site_install.drush.inc" />
+      </Component>
+      <Component Id="cmp98FDBCFDABABDA64E0C395F660321F04" Directory="dir0147E4D5CD4AE5FED27D5291FC385B2E" Guid="{78B218F3-36BB-4882-9AC1-0243CA7E5830}">
+        <File Id="fil8C92FD0679EE7BEE3CA034DDD11FD926" KeyPath="yes" Source="$(var.DrushSourceDir)\commands\core\ssh.drush.inc" />
+      </Component>
+      <Component Id="cmp303E4B5E2B7CA4729664196BF100CCFD" Directory="dir0147E4D5CD4AE5FED27D5291FC385B2E" Guid="{5DFC8D2C-F0E8-47DC-846A-249C70909A06}">
+        <File Id="filDFF3053A1974BA295C4DE207A030DF75" KeyPath="yes" Source="$(var.DrushSourceDir)\commands\core\test.drush.inc" />
+      </Component>
+      <Component Id="cmp8C0058B291CA38AB638F29CE1A42168C" Directory="dir0147E4D5CD4AE5FED27D5291FC385B2E" Guid="{5301469F-E9DF-40C5-994F-D7C04005DCBD}">
+        <File Id="filF58B964168FDA0D26B3C6EEFC8ECD1D8" KeyPath="yes" Source="$(var.DrushSourceDir)\commands\core\topic.drush.inc" />
+      </Component>
+      <Component Id="cmp9A9DF8488BBA1B79AE0249763BD9196C" Directory="dir0147E4D5CD4AE5FED27D5291FC385B2E" Guid="{0244740B-2C11-4C01-B54F-DDAE28A5A799}">
+        <File Id="fil9971E61BD7A54C2C7C81290B715B26DF" KeyPath="yes" Source="$(var.DrushSourceDir)\commands\core\upgrade.drush.inc" />
+      </Component>
+      <Component Id="cmpAC0073FFA663D853213BDD0E732500A6" Directory="dir0147E4D5CD4AE5FED27D5291FC385B2E" Guid="{446B2BEC-CEB9-4156-844E-BD1C48339220}">
+        <File Id="filCB14E5DE8ABC1DD96546B5C793CAC4AB" KeyPath="yes" Source="$(var.DrushSourceDir)\commands\core\variable.drush.inc" />
+      </Component>
+      <Component Id="cmp3812D0208D4E4A649CCA7482DD38923F" Directory="dir0147E4D5CD4AE5FED27D5291FC385B2E" Guid="{6FC107FC-72E9-4FDA-944A-E619C20EF0F4}">
+        <File Id="filFA6394076BD188C37633E803D2F82C57" KeyPath="yes" Source="$(var.DrushSourceDir)\commands\core\watchdog.drush.inc" />
+      </Component>
+      <Component Id="cmpB6800A3827EDDD6BA433356E8501594D" Directory="dir586A2CB776EA753B8A05360B9F17FE1D" Guid="{B6850107-CB9C-456C-B3F6-3119C8497FE4}">
+        <File Id="fil84F999D7DD8C8C8C1015749ABDB7255A" KeyPath="yes" Source="$(var.DrushSourceDir)\commands\core\drupal\batch.inc" />
+      </Component>
+      <Component Id="cmpA54057CC761AFD5D63D425D23B9EE8AF" Directory="dir586A2CB776EA753B8A05360B9F17FE1D" Guid="{416A388D-91F8-4C6F-8405-4264C7184E1D}">
+        <File Id="filFF05C0E1AFA634A91C6F4FF6FE69DCEA" KeyPath="yes" Source="$(var.DrushSourceDir)\commands\core\drupal\batch_6.inc" />
+      </Component>
+      <Component Id="cmp0F414C46984A610B7CACB9D4EE7BCBBD" Directory="dir586A2CB776EA753B8A05360B9F17FE1D" Guid="{9D10CCC8-C907-4E06-8D46-4956BD5147C1}">
+        <File Id="filF93E286C6E65E35C533926F42DFF19F0" KeyPath="yes" Source="$(var.DrushSourceDir)\commands\core\drupal\environment.inc" />
+      </Component>
+      <Component Id="cmpDC0209D77F7CEB18B625965021DEFA14" Directory="dir586A2CB776EA753B8A05360B9F17FE1D" Guid="{8639313E-6197-457B-9011-058A03EAADD5}">
+        <File Id="fil8EA5E3E2C0546CCFA4B74E1FBAE70520" KeyPath="yes" Source="$(var.DrushSourceDir)\commands\core\drupal\environment_6.inc" />
+      </Component>
+      <Component Id="cmp29351E8CD7ED768112A5E47CB20290ED" Directory="dir586A2CB776EA753B8A05360B9F17FE1D" Guid="{196BE72C-FD52-4477-BFC6-676711B9ABCA}">
+        <File Id="filCBFB3BCA5D769FE6A108561E1737A5C7" KeyPath="yes" Source="$(var.DrushSourceDir)\commands\core\drupal\site_install.inc" />
+      </Component>
+      <Component Id="cmp770781DC2190E88084939B9602D484C1" Directory="dir586A2CB776EA753B8A05360B9F17FE1D" Guid="{CABD661A-887D-4519-8A97-4849E54B9969}">
+        <File Id="fil3BAFF50CA68F05588C912459BC902BEA" KeyPath="yes" Source="$(var.DrushSourceDir)\commands\core\drupal\site_install_6.inc" />
+      </Component>
+      <Component Id="cmpE6C57C9D3AAAC691E00E9A0232AC448C" Directory="dir586A2CB776EA753B8A05360B9F17FE1D" Guid="{8C602FD7-920E-4AB8-BEE0-369E3C7F4A17}">
+        <File Id="filBA4690EEEF16899DBBC5BF5D6E452BF0" KeyPath="yes" Source="$(var.DrushSourceDir)\commands\core\drupal\update.inc" />
+      </Component>
+      <Component Id="cmp2262117BEF57D78FC0DA8BBD7D5E3CF9" Directory="dir586A2CB776EA753B8A05360B9F17FE1D" Guid="{DD112308-43B1-4B25-BE12-E9D1F67C9E4E}">
+        <File Id="fil9B626EDE8ED082B92FA5B340CF930B71" KeyPath="yes" Source="$(var.DrushSourceDir)\commands\core\drupal\update_6.inc" />
+      </Component>
+      <Component Id="cmp94BB4BE393EF2C355A6DF7C5601911FD" Directory="dir803B134FE8EBFB6657A5F39F70916AF1" Guid="{EBCD370E-B632-46DA-9BC6-DEC450A777A3}">
+        <File Id="filFD846AA0735EEC85F81CC6C29EDCCF84" KeyPath="yes" Source="$(var.DrushSourceDir)\commands\pm\download.pm.inc" />
+      </Component>
+      <Component Id="cmpD1EF01670DF81D8410C9D0821A6B1EDA" Directory="dir803B134FE8EBFB6657A5F39F70916AF1" Guid="{B6491299-8E2D-4A5C-9802-AA3A7EF85D0B}">
+        <File Id="fil9C78C50DA6D0920AA7F9D0923E2F297B" KeyPath="yes" Source="$(var.DrushSourceDir)\commands\pm\info.pm.inc" />
+      </Component>
+      <Component Id="cmpF5AE8122FD2C9F3FE5E619ABE1D7C276" Directory="dir803B134FE8EBFB6657A5F39F70916AF1" Guid="{38E7761F-E435-4262-98F5-01F2572CBC00}">
+        <File Id="filD90D5CE6104BF79ADF0C52F49A9D72D6" KeyPath="yes" Source="$(var.DrushSourceDir)\commands\pm\pm.drush.inc" />
+      </Component>
+      <Component Id="cmpAD04E4153A3C4F9E2DAAF78298AE0B48" Directory="dir803B134FE8EBFB6657A5F39F70916AF1" Guid="{982EE834-8D69-43CB-B7A2-199BD2B1BFA0}">
+        <File Id="fil795044CD0515CE8E331DFEF29316AC49" KeyPath="yes" Source="$(var.DrushSourceDir)\commands\pm\updatecode.pm.inc" />
+      </Component>
+      <Component Id="cmpDFAABCEA99ED7261959EEF0DE6198C6A" Directory="dirA8F985A7DF934E534FD90F057195A7D2" Guid="{F81A6C71-CD71-452E-A93B-ACF97AF168A4}">
+        <File Id="filE9857BFF163C5E6267C6C824298A62BE" KeyPath="yes" Source="$(var.DrushSourceDir)\commands\pm\package_handler\git_drupalorg.inc" />
+      </Component>
+      <Component Id="cmpBDA90A580C02AD0E624545B0DC7086D6" Directory="dirA8F985A7DF934E534FD90F057195A7D2" Guid="{9389AD2F-FDD9-415E-A154-1C1C4CC17BAA}">
+        <File Id="fil201114FC15B8E54E2B2F270CAE014F96" KeyPath="yes" Source="$(var.DrushSourceDir)\commands\pm\package_handler\wget.inc" />
+      </Component>
+      <Component Id="cmpF7A2F5C1B77A2FA5533C3B5E31CDD985" Directory="dir33F818539A8AFEA51837CE8500B1989B" Guid="{3FD4CAFD-EA26-4874-9140-0DB0E7A19D23}">
+        <File Id="filB83DA33A05B11B1E0E94FD673F28D151" KeyPath="yes" Source="$(var.DrushSourceDir)\commands\pm\update_info\drupal.inc" />
+      </Component>
+      <Component Id="cmp47C01EE4766CF340150CD2536B7A920C" Directory="dir33F818539A8AFEA51837CE8500B1989B" Guid="{8B92B2CA-B102-4868-8727-7CC0734F803D}">
+        <File Id="filF2CEFEDA39428028A61D314A48FE697A" KeyPath="yes" Source="$(var.DrushSourceDir)\commands\pm\update_info\drupal_6.inc" />
+      </Component>
+      <Component Id="cmp58FEA8885D2497746F8378768BB7606A" Directory="dir4FFD0F612DBA25F6B424C1CB8A678D2A" Guid="{F2DCB575-F070-4876-91E6-949F7E669150}">
+        <File Id="fil64686485B94ED2E95B1AA3DA9E1865E8" KeyPath="yes" Source="$(var.DrushSourceDir)\commands\pm\version_control\backup.inc" />
+      </Component>
+      <Component Id="cmp8FC85AA0BC27759897AD7835DF5D541B" Directory="dir4FFD0F612DBA25F6B424C1CB8A678D2A" Guid="{3B8B3F67-BABE-4D5C-90F9-8D013253F743}">
+        <File Id="fil52D3A5970512135151D97805E9196104" KeyPath="yes" Source="$(var.DrushSourceDir)\commands\pm\version_control\bzr.inc" />
+      </Component>
+      <Component Id="cmpB44D9B6D4FF709163659BA4A24982F09" Directory="dir4FFD0F612DBA25F6B424C1CB8A678D2A" Guid="{E5B10F5E-3710-4660-87C4-B7EB305C4BDE}">
+        <File Id="fil90242B556E9B88147872976AC1D9178E" KeyPath="yes" Source="$(var.DrushSourceDir)\commands\pm\version_control\svn.inc" />
+      </Component>
+      <Component Id="cmp0E82F2195EAF07A7E566B4C0884F301F" Directory="dir98AFE0CA7C44669A243F1B14AA4295F3" Guid="{DEFAAF24-A735-45CF-AD9C-2CE6E2266DCF}">
+        <File Id="fil82C3F3C59AE3E371AE6783B7CC94B4A8" KeyPath="yes" Source="$(var.DrushSourceDir)\commands\runserver\runserver-drupal.inc" />
+      </Component>
+      <Component Id="cmp30ED1D1BF456F0516DC095373F8BD9FE" Directory="dir98AFE0CA7C44669A243F1B14AA4295F3" Guid="{629B9BCD-104E-4E7F-AC26-5F85E3A61596}">
+        <File Id="fil7880E2BC3BBAB17FACF6FFF3F9BAC0DC" KeyPath="yes" Source="$(var.DrushSourceDir)\commands\runserver\runserver-prepend.php" />
+      </Component>
+      <Component Id="cmp348D3D07EB5100F8293360AD052DD02A" Directory="dir98AFE0CA7C44669A243F1B14AA4295F3" Guid="{D3483B11-BF76-4C7A-BDEA-9E892CB5E83A}">
+        <File Id="filB333E5BB4B3F555A74A784D7451784DF" KeyPath="yes" Source="$(var.DrushSourceDir)\commands\runserver\runserver.drush.inc" />
+      </Component>
+      <Component Id="cmp2DF384242117CC0333AA5575EE19C93E" Directory="dirD36F26353C1F5BB342B2675168247D13" Guid="{05CEC197-868F-44F7-9013-CE40CCD803B9}">
+        <File Id="fil218104AE62B9A909175F744BF08C7E87" KeyPath="yes" Source="$(var.DrushSourceDir)\commands\sql\sql.drush.inc" />
+      </Component>
+      <Component Id="cmp902472E0AE771CAAF9FE2D00E6961D34" Directory="dirD36F26353C1F5BB342B2675168247D13" Guid="{AFDFBD04-9BF2-4E4F-881F-D14231158B78}">
+        <File Id="filF13F50AC1909EB49CDA8B75B6F91D3A8" KeyPath="yes" Source="$(var.DrushSourceDir)\commands\sql\sync.sql.inc" />
+      </Component>
+      <Component Id="cmp1E60FB42C29ABC65E9332D47C93C9CB8" Directory="dir6BD86F8B090373CBBC80B13F722AE997" Guid="{772DD3D0-57DC-4758-A0FD-8769EF6DDE9C}">
+        <File Id="fil7B1A3FD66DC3E502806968A3747C43BA" KeyPath="yes" Source="$(var.DrushSourceDir)\commands\user\user.drush.inc" />
+      </Component>
+      <Component Id="cmp6F19E75DB5A344060F6E4955CE8DF6ED" Directory="dir6CCCA9256FF776A5A34E9DFDBA7C183A" Guid="{1E8AECA8-10C5-434B-9098-040DCC7F2F83}">
+        <File Id="fil51C56BC901DCDD4A810ACD4F66FFD2E4" KeyPath="yes" Source="$(var.DrushSourceDir)\docs\bootstrap.html" />
+      </Component>
+      <Component Id="cmp0199E5D1DCDA45FDBB4CE69B7FEB71FE" Directory="dir6CCCA9256FF776A5A34E9DFDBA7C183A" Guid="{8DA990D5-3581-4F48-ABC7-ABF675B6EE8F}">
+        <File Id="fil6C93CBF2ADCA458517069C0DCFD51EB9" KeyPath="yes" Source="$(var.DrushSourceDir)\docs\commands.html" />
+      </Component>
+      <Component Id="cmp36D38A123B2D090723F7D3ECD217F543" Directory="dir6CCCA9256FF776A5A34E9DFDBA7C183A" Guid="{03691247-A8C9-45D3-9DE7-96D8AE2A50D3}">
+        <File Id="filA7E19139C9CB15F36E31511F6C7D3E42" KeyPath="yes" Source="$(var.DrushSourceDir)\docs\context.html" />
+      </Component>
+      <Component Id="cmp34186893171D30E3589378CAB44F676F" Directory="dir6CCCA9256FF776A5A34E9DFDBA7C183A" Guid="{328CD9CD-4250-40B3-A079-08CF1A1D9D08}">
+        <File Id="fil31D963DEEC0AC942DAF5A07EFC97F588" KeyPath="yes" Source="$(var.DrushSourceDir)\docs\cron.html" />
+      </Component>
+      <Component Id="cmp95243F386BC11B49F4EBAA84DA33BD94" Directory="dir6CCCA9256FF776A5A34E9DFDBA7C183A" Guid="{002E6FD4-2E07-4C11-B60D-E74BCE1E7717}">
+        <File Id="filE57E3367964D857EDF32B75FFB180FCB" KeyPath="yes" Source="$(var.DrushSourceDir)\docs\drush.api.php" />
+      </Component>
+      <Component Id="cmpE965772A2DF7D2440842B54716EE78B8" Directory="dir6CCCA9256FF776A5A34E9DFDBA7C183A" Guid="{51225105-A7DD-49D2-A5D4-5373B7DC86D3}">
+        <File Id="fil079A99730A563BB3472F02E7EF79AD16" KeyPath="yes" Source="$(var.DrushSourceDir)\docs\shellscripts.html" />
+      </Component>
+      <Component Id="cmp12F32E845CEC86CD2A2B3FC672E70475" Directory="dir6CCCA9256FF776A5A34E9DFDBA7C183A" Guid="{7B85DEBD-FBE1-47C5-BAAF-6D25B69445A4}">
+        <File Id="fil60AE07AE471A97274F8C2225EDBD9EE4" KeyPath="yes" Source="$(var.DrushSourceDir)\docs\upgrade.html" />
+      </Component>
+      <Component Id="cmpE933002FE6BF24FAAB0EDD8ACC4D3394" Directory="dirD8BA9E4FAC87715B19653A769A60FC91" Guid="{F333DEF4-D089-478F-BBB0-73800F9FCED7}">
+        <File Id="fil27751F534FAFE129348FF12F10F8F2EB" KeyPath="yes" Source="$(var.DrushSourceDir)\examples\example.aliases.drushrc.php" />
+      </Component>
+      <Component Id="cmp232BF6E30A99BADF9BA49D76DC821B9F" Directory="dirD8BA9E4FAC87715B19653A769A60FC91" Guid="{983048E3-8B82-45F4-91DC-409B61A750C2}">
+        <File Id="filF1FF69E64EE54C53D518E68D5C8A5424" KeyPath="yes" Source="$(var.DrushSourceDir)\examples\example.bashrc" />
+      </Component>
+      <Component Id="cmpE3C96298D29E04C6F6C5317C30F5C4EC" Directory="dirD8BA9E4FAC87715B19653A769A60FC91" Guid="{C7156240-71FB-45A0-B0C1-7F6A1E281057}">
+        <File Id="fil20B32601806396CB8DE66E034869E918" KeyPath="yes" Source="$(var.DrushSourceDir)\examples\example.drush.ini" />
+      </Component>
+      <Component Id="cmp40B48CA5164EFAA61EFC0742F61D1D68" Directory="dirD8BA9E4FAC87715B19653A769A60FC91" Guid="{9C462788-0A18-425D-95D8-49CE78A6BC89}">
+        <File Id="fil0E2044F63F96C4034638AB5274171063" KeyPath="yes" Source="$(var.DrushSourceDir)\examples\example.drushrc.php" />
+      </Component>
+      <Component Id="cmpB736B5B7A1931F243F229ECC2B0D3E1F" Directory="dirD8BA9E4FAC87715B19653A769A60FC91" Guid="{F8BAA5EB-6DDE-4D61-9E3F-20EDFE15C2CC}">
+        <File Id="filF9A7C3B53A733B22E7DD4A8EC923D9D4" KeyPath="yes" Source="$(var.DrushSourceDir)\examples\helloworld.script" />
+      </Component>
+      <Component Id="cmp3995D18ED29ECD45F0A5A08F1273527C" Directory="dirD8BA9E4FAC87715B19653A769A60FC91" Guid="{6D642F0E-7559-42CB-9B99-9DD95DE53438}">
+        <File Id="fil2D8C753D40921064F29B00A7FB8FB94D" KeyPath="yes" Source="$(var.DrushSourceDir)\examples\policy.drush.inc" />
+      </Component>
+      <Component Id="cmp9649ADB91F0E317302E8A7D4BFB2203A" Directory="dirD8BA9E4FAC87715B19653A769A60FC91" Guid="{C96E5C54-74DF-4E6E-BC25-58EFA3242E81}">
+        <File Id="filDFB9672870352FF76F56F76B004F4A25" KeyPath="yes" Source="$(var.DrushSourceDir)\examples\sandwich-nocolor.txt" />
+      </Component>
+      <Component Id="cmp8288583D0FD8D227EF338BCAF6F8B7B9" Directory="dirD8BA9E4FAC87715B19653A769A60FC91" Guid="{E8CD5142-0124-47FA-BEE4-2FEACF172347}">
+        <File Id="filB524D1E13371A479B5F574EC26D0C278" KeyPath="yes" Source="$(var.DrushSourceDir)\examples\sandwich-topic.txt" />
+      </Component>
+      <Component Id="cmp4E40EBFC258CF59068CF787ADB14093D" Directory="dirD8BA9E4FAC87715B19653A769A60FC91" Guid="{4207CCB5-334E-42CC-9964-0790987AD520}">
+        <File Id="filBF92591740A97F2E2F4C458B7E9427E5" KeyPath="yes" Source="$(var.DrushSourceDir)\examples\sandwich.drush.inc" />
+      </Component>
+      <Component Id="cmp5C3242A1FD374097F740C34290D87A22" Directory="dirD8BA9E4FAC87715B19653A769A60FC91" Guid="{35CD8EA1-02FF-4925-A53F-C484DFA42023}">
+        <File Id="fil7433C084BDDF0F90F40EFDAA68DF6209" KeyPath="yes" Source="$(var.DrushSourceDir)\examples\sandwich.txt" />
+      </Component>
+      <Component Id="cmpFD92529C68088659D55B65ACF34E295B" Directory="dirD8BA9E4FAC87715B19653A769A60FC91" Guid="{F3C155AB-33DF-44B4-B125-025C129847A4}">
+        <File Id="filE1A38A15D2EA2AFE396E9F71A8D333ED" KeyPath="yes" Source="$(var.DrushSourceDir)\examples\xkcd.drush.inc" />
+      </Component>
+      <Component Id="cmp4E8373F4E44277893E80767EF1A6C2B0" Directory="dir18F69BCE22B2AA4F5FE69FE0D5A80D93" Guid="{1EB73A91-8758-4728-90DB-A3461FF05D8A}">
+        <File Id="filFC13912D0404312D44F0C10CBBC54A8B" KeyPath="yes" Source="$(var.DrushSourceDir)\includes\.gitignore" />
+      </Component>
+      <Component Id="cmp01065E389018C12165D86912729B7602" Directory="dir18F69BCE22B2AA4F5FE69FE0D5A80D93" Guid="{9A06B1E9-E787-4560-95FF-E50B21799293}">
+        <File Id="fil76296CB5969FE69EB2205D744E62E3CC" KeyPath="yes" Source="$(var.DrushSourceDir)\includes\backend.inc" />
+      </Component>
+      <Component Id="cmp3666664A3D9E489736B151C3378D9155" Directory="dir18F69BCE22B2AA4F5FE69FE0D5A80D93" Guid="{5F691392-B216-41A7-AFA4-F7C0FFD618A3}">
+        <File Id="filE4F4456520A2A81263B8478134CB929B" KeyPath="yes" Source="$(var.DrushSourceDir)\includes\batch.inc" />
+      </Component>
+      <Component Id="cmp6F2AB1415E30313E1312B237B66B98C0" Directory="dir18F69BCE22B2AA4F5FE69FE0D5A80D93" Guid="{9CC10CCE-51BD-4C70-8230-48F12CB956FF}">
+        <File Id="fil2E34F37A4BACA95AE30A92068ED73F34" KeyPath="yes" Source="$(var.DrushSourceDir)\includes\bootstrap.inc" />
+      </Component>
+      <Component Id="cmpFFB693629F1E9FD7BE26F9DEB43938A4" Directory="dir18F69BCE22B2AA4F5FE69FE0D5A80D93" Guid="{FFABACC9-6DCF-4233-805B-C7B0A6306683}">
+        <File Id="filB4E131A59EA645EE42FBF10C8483D50F" KeyPath="yes" Source="$(var.DrushSourceDir)\includes\cache.inc" />
+      </Component>
+      <Component Id="cmp7308A0741A816B30E4EC695A6BD3F326" Directory="dir18F69BCE22B2AA4F5FE69FE0D5A80D93" Guid="{4EE072AA-35D1-4AFB-B340-496BEDAEAC37}">
+        <File Id="filB71513F9D8A8CA5B101166DBE50CE023" KeyPath="yes" Source="$(var.DrushSourceDir)\includes\command.inc" />
+      </Component>
+      <Component Id="cmp97CB28DE9D5AF24E3CFD7291EDE6B251" Directory="dir18F69BCE22B2AA4F5FE69FE0D5A80D93" Guid="{ECC6F00B-21DF-4DC3-A606-AF24C06B5317}">
+        <File Id="fil1BE1CEA228873F323AB64DB7FD85487F" KeyPath="yes" Source="$(var.DrushSourceDir)\includes\complete.inc" />
+      </Component>
+      <Component Id="cmpF55FFB4C25058449601B901A9F8748DE" Directory="dir18F69BCE22B2AA4F5FE69FE0D5A80D93" Guid="{8A27D6F3-AD76-4FD8-9B31-25299A6DAFE6}">
+        <File Id="filF7E0E058C3DBEFBA09D0612C24CE6649" KeyPath="yes" Source="$(var.DrushSourceDir)\includes\context.inc" />
+      </Component>
+      <Component Id="cmp505491B45EF3019C8B780EEC71505D31" Directory="dir18F69BCE22B2AA4F5FE69FE0D5A80D93" Guid="{4B77CA24-8525-4F16-A63D-8D1BBD5FC03C}">
+        <File Id="fil7652B35B79D16D735CF6FB166397A226" KeyPath="yes" Source="$(var.DrushSourceDir)\includes\dbtng.inc" />
+      </Component>
+      <Component Id="cmp23CD171B7E148A665D5ECB22F0460DCA" Directory="dir18F69BCE22B2AA4F5FE69FE0D5A80D93" Guid="{E742968F-7AA9-4718-8CD2-046D066E5384}">
+        <File Id="filE960634244B40A78ED90CD9D6F770A12" KeyPath="yes" Source="$(var.DrushSourceDir)\includes\drupal.inc" />
+      </Component>
+      <Component Id="cmp2C94EAA866D42148348588A007B2F9CE" Directory="dir18F69BCE22B2AA4F5FE69FE0D5A80D93" Guid="{75245890-387B-44C3-8468-A891FD9181D9}">
+        <File Id="fil6D8631DAC3F20D7BE2FD17C08AA51940" KeyPath="yes" Source="$(var.DrushSourceDir)\includes\drush.inc" />
+      </Component>
+      <Component Id="cmp3E862A4484E59C581ECB57DA485E4310" Directory="dir18F69BCE22B2AA4F5FE69FE0D5A80D93" Guid="{BFE9D155-5783-44B4-B203-1189B04924EB}">
+        <File Id="fil1358E5EDD588B4DC3ED9031B6EC04BEB" KeyPath="yes" Source="$(var.DrushSourceDir)\includes\environment.inc" />
+      </Component>
+      <Component Id="cmp80E3047859DE7DF2BF2D425917750ED8" Directory="dir18F69BCE22B2AA4F5FE69FE0D5A80D93" Guid="{19BB5A0D-72C0-4574-81E6-0F9C90CEC751}">
+        <File Id="filD8DC9DD8DBDFDCFEA406AC533B8E7524" KeyPath="yes" Source="$(var.DrushSourceDir)\includes\exec.inc" />
+      </Component>
+      <Component Id="cmpFDA38CAD978936839572CFD0F665448C" Directory="dir18F69BCE22B2AA4F5FE69FE0D5A80D93" Guid="{9ABAF7D2-04ED-4B05-8DC0-9A24A0242011}">
+        <File Id="fil10C6623327A32AF7EA981C094E949BE0" KeyPath="yes" Source="$(var.DrushSourceDir)\includes\filesystem.inc" />
+      </Component>
+      <Component Id="cmp699F49B12B3A58F57A940B51946326B8" Directory="dir18F69BCE22B2AA4F5FE69FE0D5A80D93" Guid="{1D7990C7-273A-49DE-B32C-8F9961FAC1D1}">
+        <File Id="filED64290790AAF44C4B3E4543F0B5EF6B" KeyPath="yes" Source="$(var.DrushSourceDir)\includes\output.inc" />
+      </Component>
+      <Component Id="cmp4131EC7E274A62C985B929FCE22687FD" Directory="dir18F69BCE22B2AA4F5FE69FE0D5A80D93" Guid="{E6F12760-1661-4179-8EF0-E5034C777BC0}">
+        <File Id="fil364E16E203CC3472989007171F22E6BE" KeyPath="yes" Source="$(var.DrushSourceDir)\includes\sitealias.inc" />
+      </Component>
+      <Component Id="cmpC5AB4FDABD332CBCF80EECCBE0D1654A" Directory="dir9DF72F04C491481EBEAA7A57D08E58E0" Guid="{8F42C316-E09C-46F7-8206-0C72EAFE3C2A}">
+        <File Id="fil4749C9D121FCA187E967D2D0D1A3FA41" KeyPath="yes" Source="$(var.DrushSourceDir)\tests\archiveDumpTest.php" />
+      </Component>
+      <Component Id="cmp0C522885CE11B9BECF712391C5845A58" Directory="dir9DF72F04C491481EBEAA7A57D08E58E0" Guid="{81152B32-1459-40C9-9E74-31E11127DBCF}">
+        <File Id="fil84D86544370669515958436C590B89B0" KeyPath="yes" Source="$(var.DrushSourceDir)\tests\backendTest.php" />
+      </Component>
+      <Component Id="cmpD2D2627527BBAA81443E408B2EEA7C92" Directory="dir9DF72F04C491481EBEAA7A57D08E58E0" Guid="{BE491A75-C8D5-4770-92A2-EF1BA8020109}">
+        <File Id="fil3B5B06DFF4B768CFE859B9F441169D4A" KeyPath="yes" Source="$(var.DrushSourceDir)\tests\cacheCommandTest.php" />
+      </Component>
+      <Component Id="cmpF5AE840D5D6D19459D657ECABA4B63BA" Directory="dir9DF72F04C491481EBEAA7A57D08E58E0" Guid="{121CA129-5FA1-4037-8A1A-4999912EA9CE}">
+        <File Id="fil0F6D6691216E53CF67B0E40F10320021" KeyPath="yes" Source="$(var.DrushSourceDir)\tests\commandTest.php" />
+      </Component>
+      <Component Id="cmp0ABAAED2002826038265376961B9BE5B" Directory="dir9DF72F04C491481EBEAA7A57D08E58E0" Guid="{D25E598B-6427-4BE6-B8F8-FCA3CA1DD454}">
+        <File Id="fil64F9C1CD4C3A7DCAC6FFAD7C3F3AA1D5" KeyPath="yes" Source="$(var.DrushSourceDir)\tests\commandUnitTest.php" />
+      </Component>
+      <Component Id="cmp84F01FAB9E8547EB1A736852936EDF6E" Directory="dir9DF72F04C491481EBEAA7A57D08E58E0" Guid="{50FD2136-ECC1-4C86-A4BF-A6340A76ED16}">
+        <File Id="fil3B45CE39FB4FAB192887B8996782DD91" KeyPath="yes" Source="$(var.DrushSourceDir)\tests\completeTest.php" />
+      </Component>
+      <Component Id="cmpB6B1A0000EB5CDDEFD0C58B85CB8B7F2" Directory="dir9DF72F04C491481EBEAA7A57D08E58E0" Guid="{78FED2F6-99A5-4E7D-84E5-37A19DFEAE1B}">
+        <File Id="filC0B78A0D8DF4B7DDE442DFEB9AF6298F" KeyPath="yes" Source="$(var.DrushSourceDir)\tests\contextTest.php" />
+      </Component>
+      <Component Id="cmp9126F4DA6AC1C8C57787656A82104CF6" Directory="dir9DF72F04C491481EBEAA7A57D08E58E0" Guid="{B11D3E77-B100-4E78-8047-9C9FAD3FCC46}">
+        <File Id="fil75248AA6F79ACAF36A7295719F51DB49" KeyPath="yes" Source="$(var.DrushSourceDir)\tests\coreTest.php" />
+      </Component>
+      <Component Id="cmpEEB6D4797B356DC2D98DC45DB299429B" Directory="dir9DF72F04C491481EBEAA7A57D08E58E0" Guid="{BB3F06CE-6DBE-44EF-9410-8D9ED4B90A7F}">
+        <File Id="fil54E415DCBF05FFC363F463CE7DCE1914" KeyPath="yes" Source="$(var.DrushSourceDir)\tests\COVERAGE.txt" />
+      </Component>
+      <Component Id="cmp9B2B5B365AA5CE819B74C94E85B89D55" Directory="dir9DF72F04C491481EBEAA7A57D08E58E0" Guid="{941CD230-748D-4C2F-BB7C-C4990F7F77A8}">
+        <File Id="fil5EC4BF7A1F5F613AA2F33A1CC8857DF2" KeyPath="yes" Source="$(var.DrushSourceDir)\tests\devel.xml" />
+      </Component>
+      <Component Id="cmp0118F71B24D7CE7A10AC72F8B7C65B30" Directory="dir9DF72F04C491481EBEAA7A57D08E58E0" Guid="{233AFE06-7CB1-462E-98D3-20DE5DE1389B}">
+        <File Id="fil7931046A975C2FBE047602F6BB2A68CC" KeyPath="yes" Source="$(var.DrushSourceDir)\tests\drush_testcase.inc" />
+      </Component>
+      <Component Id="cmpB7905C3731736BA0A3DAD7D545D36A0D" Directory="dir9DF72F04C491481EBEAA7A57D08E58E0" Guid="{757C6524-CC26-436B-8476-AFDD23C66D98}">
+        <File Id="fil8B1718C355192E44D9336C36B6236BB5" KeyPath="yes" Source="$(var.DrushSourceDir)\tests\fieldTest.php" />
+      </Component>
+      <Component Id="cmpA5AABA0BEF8F5C43359DC044F7AECC0D" Directory="dir9DF72F04C491481EBEAA7A57D08E58E0" Guid="{01170BF7-9A4F-4B4F-A3DA-A305682B4372}">
+        <File Id="fil2D55506A52268B6712C4C4372F5582DA" KeyPath="yes" Source="$(var.DrushSourceDir)\tests\phpunit.xml.dist" />
+      </Component>
+      <Component Id="cmp52FFD497489F1668303CEF8A54BB4057" Directory="dir9DF72F04C491481EBEAA7A57D08E58E0" Guid="{4B7207A3-68F9-49DC-958C-1BABF07B623B}">
+        <File Id="filADF347DF5044A308EF2141D9ADC64253" KeyPath="yes" Source="$(var.DrushSourceDir)\tests\pmDownloadTest.php" />
+      </Component>
+      <Component Id="cmp696E8A2B90906C5CE4D342F1C4D261AC" Directory="dir9DF72F04C491481EBEAA7A57D08E58E0" Guid="{C354DB23-B5C9-44BA-ABDF-0F9A81B3D101}">
+        <File Id="filCB155952C14046726237006BFA5552EB" KeyPath="yes" Source="$(var.DrushSourceDir)\tests\pmEnDisUnListTest.php" />
+      </Component>      
+      <Component Id="cmpF5135259220481AFA30F8A507C64A563" Directory="dir9DF72F04C491481EBEAA7A57D08E58E0" Guid="{F56332D5-E3FD-49FB-967B-7E4FDCE95710}">
+        <File Id="fil44D31BC784FC989F6B7A776BDE3B3E35" KeyPath="yes" Source="$(var.DrushSourceDir)\tests\pmEnDisUnListVarTest.php" />
+      </Component>
+      <Component Id="cmpBAA5B73D7073881E389BEBC3E8ADDC04" Directory="dir9DF72F04C491481EBEAA7A57D08E58E0" Guid="{AB471F49-E2D9-4282-AF60-AE072405E32C}">
+        <File Id="fil9DD30677846AF54F60109641F20EA953" KeyPath="yes" Source="$(var.DrushSourceDir)\tests\pmTest.inc" />
+      </Component>
+      <Component Id="cmp5506F2235382931AE9A569AAA7C3BD97" Directory="dir9DF72F04C491481EBEAA7A57D08E58E0" Guid="{BA945994-2C4C-45AB-8A1E-375399CC74DA}">
+        <File Id="fil1FC938F15AAA2D458D89014837DE945A" KeyPath="yes" Source="$(var.DrushSourceDir)\tests\pmUpdateCodeTest.php" />
+      </Component>
+      <Component Id="cmp25E176FAC7FC44378D72F6F46E5E7868" Directory="dir9DF72F04C491481EBEAA7A57D08E58E0" Guid="{DCE9F5D8-6BA6-4137-AB95-BF991667DB8B}">
+        <File Id="filC03AE7944E61FDC162668F0854F8493F" KeyPath="yes" Source="$(var.DrushSourceDir)\tests\README.txt" />
+      </Component>
+      <Component Id="cmpDB024F1B966F7A4E04F11BD24BADEE43" Directory="dir9DF72F04C491481EBEAA7A57D08E58E0" Guid="{5FF73C70-0DF9-42D8-AA70-E5AEF5F79F79}">
+        <File Id="fil57BD3D09CCA9AE4F18B3A95428F5616D" KeyPath="yes" Source="$(var.DrushSourceDir)\tests\runner.php" />
+      </Component>
+      <Component Id="cmpE1BFDE3B1D52E1603F563F1F9C80CCA0" Directory="dir9DF72F04C491481EBEAA7A57D08E58E0" Guid="{DA200912-4609-4DA8-BB84-EA6877C55D8D}">
+        <File Id="filE998604D34323DD591A6030222D2CA6A" KeyPath="yes" Source="$(var.DrushSourceDir)\tests\shellAliasTest.php" />
+      </Component>
+      <Component Id="cmp6AC8CCBCF31BC1E8695AA648C085852F" Directory="dir9DF72F04C491481EBEAA7A57D08E58E0" Guid="{744764D1-282B-48A6-B47D-C6287A9C9C44}">
+        <File Id="fil5D4E823DF92E88FF69C253B720B191E1" KeyPath="yes" Source="$(var.DrushSourceDir)\tests\siteAliasTest.php" />
+      </Component>
+      <Component Id="cmp2E40E388934DBA5AEEB1E1D39242ABC2" Directory="dir9DF72F04C491481EBEAA7A57D08E58E0" Guid="{FCEDE39B-81A6-4E6A-9FFA-19EE2EE7D6E0}">
+        <File Id="fil66F953CD3A47B4B70EEEACDE58B74F33" KeyPath="yes" Source="$(var.DrushSourceDir)\tests\siteSshTest.php" />
+      </Component>      
+      <Component Id="cmp848F3FD63A38C036BA830C8CD52816F" Directory="dir9DF72F04C491481EBEAA7A57D08E58E0" Guid="{14A95699-6EB9-49AE-8844-24512D8D52A7}">
+        <File Id="filD169B9A27BF96EF4B0A5467CCC86F065" KeyPath="yes" Source="$(var.DrushSourceDir)\tests\siteUpgradeTest.php" />
+      </Component>
+      <Component Id="cmpF0DBC29AC232313B98CA5813D7C93727" Directory="dir9DF72F04C491481EBEAA7A57D08E58E0" Guid="{6825DC59-DF2F-44D7-AC74-C3770E2867F7}">
+        <File Id="filFEFCB354A57FFC4EDDB24E64763E63EF" KeyPath="yes" Source="$(var.DrushSourceDir)\tests\sqlSyncTest.php" />
+      </Component>
+      <Component Id="cmp1672376333B042F47CD2FD5EEE0459AB" Directory="dir9DF72F04C491481EBEAA7A57D08E58E0" Guid="{A0D73659-C70C-4864-90F1-7D0AF78595FE}">
+        <File Id="fil6A409BA14556725CC9D66101371C1160" KeyPath="yes" Source="$(var.DrushSourceDir)\tests\unit.drush.inc" />
+      </Component>
+      <Component Id="cmp94DA696F06FF186DEB412E012E0D8B82" Directory="dir9DF72F04C491481EBEAA7A57D08E58E0" Guid="{5D137FD5-B3E8-496D-B3BA-E097138CE514}">
+        <File Id="fil7DCF99D8D2699E79E7E51BEB88A59128" KeyPath="yes" Source="$(var.DrushSourceDir)\tests\userTest.php" />
+      </Component>
+      <Component Id="cmp001389390616AA7D4B086D9493D5200E" Directory="dir9DF72F04C491481EBEAA7A57D08E58E0" Guid="{D61C105F-9A5B-4D3D-BF16-7EBAF64C04EC}">
+        <File Id="filF8634C7FED9FF6DEFA464EEA000318F6" KeyPath="yes" Source="$(var.DrushSourceDir)\tests\variableTest.php" />
+      </Component>
+    </ComponentGroup>
+  </Fragment>
+  <Fragment>
+    <DirectoryRef Id="dir98AFE0CA7C44669A243F1B14AA4295F3" />
+  </Fragment>
+  <Fragment>
+    <DirectoryRef Id="dir6BD86F8B090373CBBC80B13F722AE997" />
+  </Fragment>
+  <Fragment>
+    <DirectoryRef Id="dirD36F26353C1F5BB342B2675168247D13" />
+  </Fragment>
+  <Fragment>
+    <DirectoryRef Id="dir18F69BCE22B2AA4F5FE69FE0D5A80D93" /> 
+  </Fragment>
+  <Fragment>
+    <DirectoryRef Id="dir4FFD0F612DBA25F6B424C1CB8A678D2A" />
+  </Fragment>
+  <Fragment>
+    <DirectoryRef Id="dir6CCCA9256FF776A5A34E9DFDBA7C183A" />
+  </Fragment>
+  <Fragment>
+    <DirectoryRef Id="dir803B134FE8EBFB6657A5F39F70916AF1" />
+  </Fragment>
+  <Fragment>
+    <DirectoryRef Id="dir586A2CB776EA753B8A05360B9F17FE1D" />
+  </Fragment>
+  <Fragment>
+    <DirectoryRef Id="dir0147E4D5CD4AE5FED27D5291FC385B2E" />
+  </Fragment>
+  <Fragment>
+    <DirectoryRef Id="dir9DF72F04C491481EBEAA7A57D08E58E0" />
+  </Fragment>
+  <Fragment>
+    <DirectoryRef Id="dirA8F985A7DF934E534FD90F057195A7D2" />
+  </Fragment>
+  <Fragment>
+    <DirectoryRef Id="dirD8BA9E4FAC87715B19653A769A60FC91" />
+  </Fragment>
+  <Fragment>
+    <DirectoryRef Id="dir33F818539A8AFEA51837CE8500B1989B" />
+  </Fragment>
+  <Fragment>
+    <DirectoryRef Id="dir61CB05E69C1CE16636D919FD3AF6C1DD">
+      <Directory Id="dir0147E4D5CD4AE5FED27D5291FC385B2E" Name="core" />
+    </DirectoryRef>
+  </Fragment>
+  <Fragment>
+    <DirectoryRef Id="dir803B134FE8EBFB6657A5F39F70916AF1">
+      <Directory Id="dir33F818539A8AFEA51837CE8500B1989B" Name="update_info" />
+    </DirectoryRef>
+  </Fragment>
+  <Fragment>
+    <DirectoryRef Id="dir803B134FE8EBFB6657A5F39F70916AF1">
+      <Directory Id="dir4FFD0F612DBA25F6B424C1CB8A678D2A" Name="version_control" />
+    </DirectoryRef>
+  </Fragment>
+  <Fragment>
+    <DirectoryRef Id="dir0147E4D5CD4AE5FED27D5291FC385B2E">
+      <Directory Id="dir586A2CB776EA753B8A05360B9F17FE1D" Name="drupal" />
+    </DirectoryRef>
+  </Fragment>
+  <Fragment>
+    <DirectoryRef Id="dir61CB05E69C1CE16636D919FD3AF6C1DD">
+      <Directory Id="dir6BD86F8B090373CBBC80B13F722AE997" Name="user" />
+    </DirectoryRef>
+  </Fragment>
+  <Fragment>
+    <DirectoryRef Id="dir61CB05E69C1CE16636D919FD3AF6C1DD">
+      <Directory Id="dir803B134FE8EBFB6657A5F39F70916AF1" Name="pm" />
+    </DirectoryRef>
+  </Fragment>
+  <Fragment>
+    <DirectoryRef Id="dir61CB05E69C1CE16636D919FD3AF6C1DD">
+      <Directory Id="dir98AFE0CA7C44669A243F1B14AA4295F3" Name="runserver" />
+    </DirectoryRef>
+  </Fragment>
+  <Fragment>
+    <DirectoryRef Id="dir803B134FE8EBFB6657A5F39F70916AF1">
+      <Directory Id="dirA8F985A7DF934E534FD90F057195A7D2" Name="package_handler" />
+    </DirectoryRef>
+  </Fragment>
+  <Fragment>
+    <DirectoryRef Id="dir61CB05E69C1CE16636D919FD3AF6C1DD">
+      <Directory Id="dirD36F26353C1F5BB342B2675168247D13" Name="sql" />
+    </DirectoryRef>
+  </Fragment>
+</Include>
